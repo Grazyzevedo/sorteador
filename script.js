@@ -70,7 +70,7 @@ function atualizarSorteados() {
     else {
         sorteadosDiv.innerHTML = "";
        for (let sorteado of sorteados){
-           resultado.innerHTML += 
+          sorteadosDiv.innerHTML += 
             `<div class="sorteado-item">
                 ${sorteado}                
             </div>`
